@@ -1,0 +1,114 @@
+# ==============================================================================
+# Python Bytecode, Packaging & Caches
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================================================================
+# Testing, Linting & Type Checking
+# ==============================================================================
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ==============================================================================
+# Environment Variables, Credentials & Secrets (Never Commit)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*service-account*.json
+*credentials*.json
+*secret*.json
+!tests/eval/golden_dataset.json
+*.pem
+*.key
+*.p12
+
+# ==============================================================================
+# Google ADK & PokéGrade Local Session / SQLite State
+# ==============================================================================
+.adk/
+**/.adk/
+.pokegrade_sessions.json
+.pokegrade_sessions.sqlite3
+.pokegrade_sessions*
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# ==============================================================================
+# Terraform & Infrastructure as Code (IaC)
+# ==============================================================================
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!terraform/*.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ==============================================================================
+# Local Agent CLI / Editor / OS Metadata
+# ==============================================================================
+.gemini/
+.agents/
+.agents-cli-spec.md
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log
+tmp/
+temp/

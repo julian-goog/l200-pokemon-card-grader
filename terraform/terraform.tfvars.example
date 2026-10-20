@@ -1,0 +1,9 @@
+# PokéGrade AI — Terraform Variable Template
+# Copy to `terraform/terraform.tfvars` (which is git-ignored) and set your GCP project ID.
+
+project_id         = "your-gcp-project-id"
+region             = "us-central1"
+environment        = "prod"
+agent_display_name = "pokegrade-ai-concierge"
+inspector_model    = "gemini-3.8-flash"
+strategist_model   = "gemini-3.1-pro-preview"
